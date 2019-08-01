@@ -1,0 +1,82 @@
+{
+  "navItems": [
+    "features",
+    "support",
+    "blog"
+  ],
+  "welcomeHeader": "Inspire your inspiration",
+  "welcomeUnderCapture": "Simple to use for your app, products showcase and your inspiration",
+  "welcomeText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Provin vivierra risusu a eros volutrat tempor. In quis arcu et posta lobortis sit.",
+  "featuresHeader": "Tinyone features",
+  "featuresUnderCapture": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.",
+  "features": [
+    {
+      "icon": "fas fa-tablet-alt",
+      "header": "Fully Responsible",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum."
+    },
+    {
+      "icon": "far fa-lemon",
+      "header": "Fully Layered PSD",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum."
+    },
+    {
+      "icon": "far fa-folder",
+      "header": "Font Awesome Icons",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum."
+    },
+    {
+      "icon": "fas fa-code",
+      "header": "HTML3 & CSS3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum."
+    },
+    {
+      "icon": "far fa-envelope",
+      "header": "Email Template",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum."
+    },
+    {
+      "icon": "far fa-bookmark",
+      "header": "Free To Download",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum."
+    }
+  ],
+  "footerHeader": "Keep in touch with us",
+  "footerUnderCapture": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.",
+  "social": [
+    "fab fa-facebook-square",
+    "fab fa-twitter-square",
+    "fab fa-google-plus-square",
+    "fab fa-pinterest-square"
+  ],
+  "contacts": [
+    "HALOVIETNAM LTD",
+    "66, Dang Van Ngu, Dong Da",
+    "Hanoi, Vietnam",
+    "Contact@Halovietnam",
+    "+844 35149182"
+  ],
+  "footerNav": [
+    [
+      "examples",
+      "shop",
+      "license"
+    ],
+    [
+      "contact",
+      "about",
+      "privacy",
+      "terms"
+    ],
+    [
+      "download",
+      "support",
+      "documents"
+    ],
+    [
+      "media",
+      "blog",
+      "forums"
+    ]
+  ]
+}

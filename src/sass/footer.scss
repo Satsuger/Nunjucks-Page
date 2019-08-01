@@ -1,0 +1,62 @@
+@import './variables.scss';
+
+footer {
+  background-color: $Black;
+  .capture {
+    padding: 20px 0px;
+    text-align: center;
+    h2 {
+      color: $Yellow;
+    }
+  }
+  .social {
+    font-size: 40px;
+    color: $Yellow;
+    text-align: center;
+    margin: 60px 0px 40px 0px;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    color: $White;
+    list-style-type: none;
+    text-transform: capitalize;
+    padding-left: 0;
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+  }
+
+}
+input {
+  border-radius: 2px;
+  padding: 10px 15px;
+  border: none;
+}
+input[type=email] {
+  flex-grow: 1;
+}
+input[type=submit] {
+  font-weight: bold;
+  background-color: $Yellow;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 690px) {
+ ul {
+   width: 50%;
+ }
+ .about {
+   width: 100%;
+ }
+ .footer-nav {
+   flex-wrap: wrap;
+ }
+}

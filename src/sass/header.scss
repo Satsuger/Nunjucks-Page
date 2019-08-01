@@ -1,0 +1,80 @@
+@import "./variables.scss";
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  z-index: 90;
+  background-color: $YellowRGBA;
+
+  .logo {
+    background-image: url("../img/logo-brand.png");
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 150px;
+  }
+  .nav__item {
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0px;
+  }
+  .nav__item:hover {
+    color: $White;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+.menu {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+@media screen and (max-width: 690px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+
+    .nav__item {
+      background-color: $YellowRGBA;
+      padding: 10px 0px;
+      text-align: center;
+      width: 100%;
+    }
+    .nav__item:hover {
+      background-color: $YellowLight;
+    }
+  }
+  .open nav {
+    height: 140px;
+  }
+}

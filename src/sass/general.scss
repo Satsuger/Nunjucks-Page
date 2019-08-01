@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+// FONTS
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  color: $Black;
+  margin: 0;
+}
+h1, h2, .menu {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3, a {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.underCapture {
+  font-size: 20px;
+  color: $Grey;
+}
+.regularText {
+  font-size: 16px;
+  color: $Grey;
+}
+.yellow {
+  color: $Yellow;
+}
+.white {
+  color: $White;
+}
+
+//RESET 
+a {
+  text-decoration: none;
+  color: $Black;
+}
+button:focus,
+input:focus{
+  outline: none;
+}
+
+// HZ
+.container {
+  max-width: 982px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0px 30px;
+}
