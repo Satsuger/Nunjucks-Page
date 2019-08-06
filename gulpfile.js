@@ -1,4 +1,4 @@
-const {task, src, dest, watch, series} = require('gulp');
+const {parallel, task, src, dest, watch, series} = require('gulp');
 const sass = require('gulp-sass');
 const njk = require('gulp-nunjucks');
 const cleanCSS = require('gulp-clean-css');
@@ -6,6 +6,7 @@ const concat = require('gulp-concat');
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
+const del = require('del');
 
 task('sass', () => {
   return src('./src/sass/**/*.scss')
@@ -29,6 +30,24 @@ task('njk', () => {
   .pipe(dest('dist'))
   .pipe(browserSync.stream());
 })
+
+task('clean', function() {
+  return del('dist');
+});
+
+task('moveIndex', () => {
+  return src('./src/index.html')
+  .pipe(dest('dist'))
+});
+
+task('assets', () => {
+  return src('./src/assets/**/**')
+  .pipe(dest('dist'));
+});
+
+task('build', function() {
+  return series('clean', 'sass', 'assets', 'moveIndex'); // ???????????????????????????????
+});
 
 task('watch', () => {
   browserSync.init({
