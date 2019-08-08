@@ -8,6 +8,5 @@ OR
 https://nunjucks.herokuapp.com/
 
 
-Questions:
-<br>
-Advise the structure of the project please?
+Questions:<br>
+*Could you advise me about project structure, please?
