@@ -11,7 +11,6 @@ nunjucks.configure(PATH_TO_TEMPLATES, {
    express: app
 });
 
-
 app.get( '/', function( req, res ) {
   var data = Data;
   return res.render( 'index.html', data );
