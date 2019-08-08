@@ -5,7 +5,7 @@ Just for fun
 
 // Npm i, npm start to start server on localhost:3000
 OR 
-https://git.heroku.com/nunjucks.git
+https://nunjucks.herokuapp.com/
 
 
 Questions:
